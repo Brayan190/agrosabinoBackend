@@ -2,7 +2,6 @@
 
 # dependencies
 node_modules
-resources
 /node_modules
 node_modules/
 /.pnp
