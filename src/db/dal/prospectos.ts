@@ -62,7 +62,7 @@ export const getAll = async (filters?: GetAllFilters): Promise<ProspectoOuput[]>
                 attributes: ["name"]
             }
         ],
-        paranoid: filters?.includeDeleted || false,
+        paranoid: true,
     });
 };
 
